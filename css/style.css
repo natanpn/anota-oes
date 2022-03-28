@@ -1,0 +1,67 @@
+/* RESET */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    background-color: rgb(228, 226, 226);
+    font-family: Helvetica, sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+section.conteudo .note{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.box-note{
+    width: 31.3%;
+    height: 180px;
+    margin: 1% 1%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 80%);
+}
+.box-note textarea{
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(211, 194, 45);
+    outline: none;
+    resize: none;
+}
+.add-note{
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(228, 226, 226);
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 80%);
+    border-radius: 20px;
+}
+.add-text{
+   width: 100%;
+   margin: 60px 0;
+   text-align: center;
+}
+@media screen and (max-width: 900px) {
+    .box-note{
+        width: 48%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .box-note{
+        width: 98%;
+    }
+    
+}
